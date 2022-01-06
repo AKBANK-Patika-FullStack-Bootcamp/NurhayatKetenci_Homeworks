@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "1gBUFxyTHYfvAm6l9YblBFlUVvx8lfVbHs1RLbmQWSJewAY2yHHh6uJ26LUUQAiS/wqk4ljr/K4kjIcq1K7Z3A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\deneme\\Source\\Repos\\akbank_bootcamp\\akbank_bootcamp\\akbank_bootcamp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\deneme\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\deneme\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\deneme\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "C:\\Users\\deneme\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "C:\\Users\\deneme\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "C:\\Users\\deneme\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}
