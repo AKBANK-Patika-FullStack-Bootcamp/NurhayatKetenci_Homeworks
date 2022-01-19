@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "d80a953e-14b3-4eeb-9be6-b7b9f6ce4c41": {
+      "ProjectGuid": "d80a953e-14b3-4eeb-9be6-b7b9f6ce4c41",
+      "DisplayName": "akbank_bootcamp",
+      "ColorIndex": 0
+    },
+    "0e1c29de-47ca-452c-94f0-af4a26c7289b": {
+      "ProjectGuid": "0e1c29de-47ca-452c-94f0-af4a26c7289b",
+      "DisplayName": "DAL",
+      "ColorIndex": 1
+    },
+    "e2423a25-a8ef-4c57-b77a-09f10f5a31af": {
+      "ProjectGuid": "e2423a25-a8ef-4c57-b77a-09f10f5a31af",
+      "DisplayName": "Entities",
+      "ColorIndex": 2
+    }
+  },
+  "NextColorIndex": 3
+}

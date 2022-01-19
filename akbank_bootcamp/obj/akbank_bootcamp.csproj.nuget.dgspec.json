@@ -1,17 +1,103 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\deneme\\Source\\Repos\\akbank_bootcamp\\akbank_bootcamp\\akbank_bootcamp.csproj": {}
+    "C:\\Users\\deneme\\Source\\Repos\\akbank_homeworkone\\akbank_bootcamp\\akbank_bootcamp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\deneme\\Source\\Repos\\akbank_bootcamp\\akbank_bootcamp\\akbank_bootcamp.csproj": {
+    "C:\\Users\\deneme\\Source\\Repos\\akbank_homeworkone\\akbank_bootcamp\\akbank_bootcamp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\deneme\\Source\\Repos\\akbank_bootcamp\\akbank_bootcamp\\akbank_bootcamp.csproj",
+        "projectUniqueName": "C:\\Users\\deneme\\Source\\Repos\\akbank_homeworkone\\akbank_bootcamp\\akbank_bootcamp.csproj",
         "projectName": "akbank_bootcamp",
-        "projectPath": "C:\\Users\\deneme\\Source\\Repos\\akbank_bootcamp\\akbank_bootcamp\\akbank_bootcamp.csproj",
+        "projectPath": "C:\\Users\\deneme\\Source\\Repos\\akbank_homeworkone\\akbank_bootcamp\\akbank_bootcamp.csproj",
         "packagesPath": "C:\\Users\\deneme\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\deneme\\Source\\Repos\\akbank_bootcamp\\akbank_bootcamp\\obj\\",
+        "outputPath": "C:\\Users\\deneme\\Source\\Repos\\akbank_homeworkone\\akbank_bootcamp\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\deneme\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\deneme\\Source\\Repos\\akbank_homeworkone\\DAL\\DAL.csproj": {
+                "projectPath": "C:\\Users\\deneme\\Source\\Repos\\akbank_homeworkone\\DAL\\DAL.csproj"
+              },
+              "C:\\Users\\deneme\\Source\\Repos\\akbank_homeworkone\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\deneme\\Source\\Repos\\akbank_homeworkone\\Entities\\Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.4.4, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[6.15.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.15.0, )"
+            },
+            "XAct.Core.PCL": {
+              "target": "Package",
+              "version": "[0.0.5014, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\deneme\\Source\\Repos\\akbank_homeworkone\\DAL\\DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\deneme\\Source\\Repos\\akbank_homeworkone\\DAL\\DAL.csproj",
+        "projectName": "DAL",
+        "projectPath": "C:\\Users\\deneme\\Source\\Repos\\akbank_homeworkone\\DAL\\DAL.csproj",
+        "packagesPath": "C:\\Users\\deneme\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\deneme\\Source\\Repos\\akbank_homeworkone\\DAL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\deneme\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,9 +126,9 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
-            "Swashbuckle.AspNetCore": {
+            "Microsoft.AspNetCore.Mvc.Core": {
               "target": "Package",
-              "version": "[6.2.3, )"
+              "version": "[2.2.5, )"
             }
           },
           "imports": [
@@ -56,9 +142,76 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\deneme\\Source\\Repos\\akbank_homeworkone\\Entities\\Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\deneme\\Source\\Repos\\akbank_homeworkone\\Entities\\Entities.csproj",
+        "projectName": "Entities",
+        "projectPath": "C:\\Users\\deneme\\Source\\Repos\\akbank_homeworkone\\Entities\\Entities.csproj",
+        "packagesPath": "C:\\Users\\deneme\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\deneme\\Source\\Repos\\akbank_homeworkone\\Entities\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\deneme\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\deneme\\Source\\Repos\\akbank_homeworkone\\DAL\\DAL.csproj": {
+                "projectPath": "C:\\Users\\deneme\\Source\\Repos\\akbank_homeworkone\\DAL\\DAL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.1, )"
             },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

@@ -1,0 +1,9 @@
+13.01.2022 00:33:44:2 Id li veri başarıyla silindi
+13.01.2022 00:35:25:2  Id li veri başarıyla silindi
+13.01.2022 00:36:14:1 Id li veriBaşarıyla güncellendi
+13.01.2022 00:37:16:1 Id li veriBaşarıyla güncellendi
+13.01.2022 00:38:27:1 Id li veriBaşarıyla güncellendi
+13.01.2022 00:40:46:1 Id li veriBaşarıyla güncellendi
+13.01.2022 00:43:20:1 Id li veriBaşarıyla güncellendi
+13.01.2022 00:44:37:1 Id li veriBaşarıyla güncellendi
+13.01.2022 00:45:08:2 Id li veriBaşarıyla güncellendi
